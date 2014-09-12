@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>AjpdSoft PhoneGap</title>
+
+ <script type="text/javascript" charset="utf-8" src="cordova-2.7.0.js"></script>
+ <script type="text/javascript" charset="utf-8">
+
+    var pictureSource;   // origen de la imagen
+    var destinationType; // establece el formato del valor devuelto 
+
+    // Esperamos a que Cordova conecte con la cámara
+    document.addEventListener("deviceready",onDeviceReady,false);
+
+    // Mostrar fichero html geolocalizacion
+    function abrirURL(url) 
+    {
+		window.location.href = url;		    
+	}
+
+</script>
+</head>
+<body>
+  <p align="left">Bienvenidos a la aplicacion para dispositivos moviles 
+    (Android<a href="modules.php?name=News&new_topic=26" title="Tutoriales 
+    sobre Android" target="_blank"></a>, iPhone, BlackBerry, Windows 
+    Phone, Ada) de ejemplo
+     de uso del framework PhoneGap para acceder a la camara del 
+    dispositivo y a la geolocalicacion:
+  <p align="left">En modo hipervinculo: 
+  
+  <ul>
+    <li><a href="resta.html" title="Acceso a geolocalización 
+      del móvil">Geolocalizacion</a></li>
+    <li><a href="camara.html" title="Acceso a la cámara 
+      y galería de fotos">Camara</a>.</li>        
+  </ul>
+  <p>En modo boton:</p>
+  <button onclick="abrirURL('resta.html');">Geolocalizacion</button><br>
+  <button onclick="abrirURL('camara.html');">Camara</button><br>  
+</body>
+</html>

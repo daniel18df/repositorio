@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "com.phonegap.example"
+    version   = "1.0.0">
+
+<name>FlashMenu</name>
+<icon src="jquery-mobile/images/fm" gap:platform="android" gap:density="xhdpi" />
+<description>
+A simple PhoneGap Build application.
+</description>
+
+<author href="https://example.com" email="you@example.com">
+Your Name
+</author>
+
+
+<gap:plugin name="com.phonegap.plugins.facebookconnect" version="0.4.0">
+    <param name="APP_ID" value="..." />
+    <param name="APP_NAME" value="..." />
+</gap:plugin>
+
+<gap:plugin name="de.appplant.cordova.plugin.background-mode" version="0.5.0" />
+
+<gap:plugin name="org.apache.cordova.geolocation" version="0.3.7" />
+
+<plugin name="App" value="org.apache.cordova.App"/>
+<plugin name="Geolocation" value="org.apache.cordova.GeoBroker"/>
+<plugin name="Device" value="org.apache.cordova.Device"/>
+<plugin name="Camera" value="org.apache.cordova.CameraLauncher"/>
+<plugin name="File" value="org.apache.cordova.FileUtils"/>
+<plugin name="Notification" value="org.apache.cordova.Notification"/>
+<plugin name="Storage" value="org.apache.cordova.Storage"/>
+<plugin name="Capture" value="org.apache.cordova.Capture"/>
+<plugin name="Echo" value="org.apache.cordova.Echo" />
+
+</widget>

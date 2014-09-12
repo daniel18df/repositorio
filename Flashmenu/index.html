@@ -1,0 +1,122 @@
+<!DOCTYPE html> 
+<html>
+<head>
+
+<title>Aplic. Web de jQuery Mobile</title>
+<meta charset="utf-8">
+
+
+
+
+  
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documento sin título</title>
+<link href="jquery-mobile/jquery.mobile.theme-1.0.min.css" rel="stylesheet" type="text/css" />
+<link href="jquery-mobile/jquery.mobile.structure-1.0.min.css" rel="stylesheet" type="text/css" />
+<script src="jquery-mobile/jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery-mobile/jquery.mobile-1.0.min.js" type="text/javascript"></script>
+
+<!---->
+<script type="text/javascript" charset="utf-8" src="phonegap-1.0.0.js"></script>
+    <script type="text/javascript" charset="utf-8">
+
+    // Espera a que PhoneGap se inicie
+    //
+    document.addEventListener("deviceready", onDeviceReady, false);
+
+    var watchID = null;
+
+    // PhoneGap esta listo
+    //
+    function onDeviceReady() {
+        // Actualiza cada 3 segundos
+        var options = { frequency: 3000 };
+        watchID = navigator.geolocation.watchPosition(onSuccess, onError, options);
+    }
+
+    // onSuccess Geolocation
+    //
+    function onSuccess(position) {
+        var element = document.getElementById('geolocation');
+        element.innerHTML = 'Latitud: '  + position.coords.latitude      + '<br />' +
+                            'Longitud: ' + position.coords.longitude     + '<br />' +
+                            '<hr />'      + element.innerHTML;
+    }
+
+    // Para el observador que acaba de iniciarse
+    // 
+    function clearWatch() {
+        if (watchID != null) {
+            navigator.geolocation.clearWatch(watchID);
+            watchID = null;
+        }
+    }
+
+    // La función 'callback' onError recibe un objeto `PositionError`.
+    //
+    function onError(error) {
+      alert('código: '  + error.code    + '\n' +
+            'mensaje: ' + error.message + '\n');
+    }
+
+    </script>
+<!---->
+</head> 
+<body background="jquery-mobile/images/bg.jpg"> 
+
+<div data-role="page" id="page" >
+
+	<div class="ui-bar-b" data-role="header">
+        
+<h1>FlashMenu</h1>
+	</div>
+     
+     <h1><em>Bienvenido a FlashMenu</em></h1>
+    
+  <em><h3> <dd>Aqui encontrara los restaurantes cerca de su posicion</dd></h3></em>
+    
+    
+	<div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="restaurantesCerca.html">Restaurantes cercanos</a></li>
+           <li><a href="#paginaMapa">prueba</a></li>
+          
+			
+		</ul>		
+	</div>
+    
+  <div align="center">
+      <p>&nbsp;</p>
+      <hr>
+      <table width="150" border="0" bgcolor="#fff">
+        <tr>
+          <th scope="col"><img src="jquery-mobile/images/1.jpg" width="346" height="212" /></th>
+        </tr>
+    </table>
+      <hr>
+      <p>&nbsp;</p>
+      <p><em>Eres dueño de un restaurant y quieres registrarlo?, comunicate con nosotros <a href="contactoAdm.html">Aquí</a></em></p>
+  </div>
+    
+        
+    
+    
+  <div class="ui-bar-b" data-role="footer">
+    <h4>Pie de página</h4>
+  </div>
+    
+    
+    
+</div>
+<div data-role="page" id="paginaMapa">        	
+        	<div data-role="header">
+            	<h1>Tu posición actual</h1>
+            </div>
+             
+             <p id="geolocation">Observando Geolocalización...</p>
+    <button onclick="clearWatch();">Dejar de observar</button>  
+        </div>
+    
+
+</body>
+</html>
