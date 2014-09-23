@@ -1,0 +1,10 @@
+Administrador de restaurant 
+
+Email = admin@admin.com
+Contraseña = admin
+
+
+Cliente
+
+Email = email@email.com
+Contraseña = email
