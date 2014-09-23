@@ -1,0 +1,4 @@
+Se debe transferir el archivo .apk al teléfono con el cable USB. Una vez copiado el archivo .apk en el teléfono, 
+puedes utilizar una aplicación de gestor de ficheros para abrir el archivo e instalar el programa, se deben dar 
+los permisos correspondientes.
+Un apk, o archivo .apk es un archivo de paquete de Android, que se utiliza para agrupar los paquetes de aplicaciones de software.

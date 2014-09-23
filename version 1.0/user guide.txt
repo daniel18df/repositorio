@@ -1,0 +1,4 @@
+Al presionar restaurantes cerca, saldran los que se encuentran cerca suyo
+Al presionar "menu", saldran los menus del restourant elgido
+Al presionar "comprar", le pedira la cantidad de personas y hora
+Al presionar "Guardar", ira al sistema de pago en linea

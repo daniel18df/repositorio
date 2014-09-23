@@ -1,0 +1,2 @@
+-En esta version se realizo hasta el sprint 4
+-Se puede instalar en dispositivos Android 2.3 - 4.4.2
