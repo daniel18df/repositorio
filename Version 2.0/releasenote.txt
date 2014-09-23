@@ -1,0 +1,6 @@
+Release Notes de Version 2.0 Flashmenu
+
+Flashmenu es una aplicacion que permite localizar los restaurantes que se encuentran cerca de la persona, permitiendole ver la informacion de este, como tambien los menus. Para luego poder comprarlo
+
+En la version 2.0 se dasarrollan historias de usuario de un product backlog, las historias que se desarrollaron en esta version son las historias de usuario numero 12, 20 y 5, en donde el cliente ya podra registrarse en la aplicacion y el administrador del restaurant podra ingresar los menus.
+

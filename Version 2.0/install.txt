@@ -1,0 +1,13 @@
+Instalacion .apk de Flashmenu
+
+1) Entramos a la siguiente URL:
+         
+        http://han.ing.unab.cl/index.php/proyectos-alumnos
+   En donde se encuentra el .apk de la aplicacion.
+
+2) Ya descargado el .apk hay que pasarlo al smathphone, mediante un cable USB o otro tipo de transferencias de archivos.
+
+3) Ya que la aplicacion no se encuentra en Google play, hay que ir a "Ajustes", "Seguridad", "Fuentes desconocidas/Origenes desconocidos" y activarlo 
+
+4) Ahora buscando por el navegador de archivos de nuestro smartphone, el directorio en donde dejamos el .apk, le damos click y lo instalamos. Y asi le quedara instalado en el smarhphone 
+  

@@ -1,0 +1,23 @@
+USER GUIDE de version 2.0 Flashmenu
+23 de septiembre de 2014.
+
+
+Para usar la Flashmenu de la plataforma android se debe utilizar android 4.1.2
+o mayor versiones de android.
+
+Primeros pasos:
+
+Abrir Flashmenu en el smartphone, se abrirá el home de la aplicación, en donde tendrá las opciones de "ver restaurantes cercanos", "Registrar Adm de restaurant", "iniciar sesión adm restaurant", "iniciar sesión cliente".
+
+Al presionar "ver restaurantes cercanos", saldrá el mapa, y para buscar su localización se debe precionar el boton del mapa, en donde le mostrará los restaurantes cercanos de usted, luego puede seleccionar un marker, el cual tendrá una pequeña información.
+
+Al presionar nuevamente el marker, mostrará la información del restaurante seleccionado. Ahora vamos a "siguiente", y le pedirá seleccionar con cuantas personas y a la hora que decean ir al restaurant elegido.
+
+Presionamos nuevamente "siguiente" y mostrará los menús para cada una de las personas, para así seleccionar el de su gusto.
+
+Finalmente presionamos "pagar" y mostrará la ventana de inicio de sesión del cliente; una vez autentificado, podrá ir a pagar los menús. Además  saldra un boton de "registrar cliente", en el caso que no se encuentre en este estado.
+
+
+
+
+
